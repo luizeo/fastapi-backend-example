@@ -10,4 +10,4 @@ app.include_router(user_router, prefix="/users")
 
 @app.get("/")
 def home():
-    return {"message": "API de Usuários funcionando"}
+    return {"message": "API de Usuários funcionando corretamente"}
